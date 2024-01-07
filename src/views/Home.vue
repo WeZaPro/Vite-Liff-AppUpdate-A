@@ -9,7 +9,7 @@
     <h3>ipAddress_queryString</h3>
     <p>{{ this.ipAddress_queryString }}</p>
     <h3>new IpAddress</h3>
-    <p>{{ new_IPADDRESS }}</p>
+    <p>{{ this.new_IPADDRESS }}</p>
     <!-- <h3>userId</h3>
     <p>{{ this.userId_queryString }}</p> -->
   </div>
@@ -88,8 +88,8 @@ export default {
   },
   mounted() {
     // Todo Filter from audience เปลี่ยนจาก IP เป็น userId (cookies) เพราะใช้ ip มันเปลี่ยนไปมา น่าจะมาจาก router wifi
-    this.ipAddress_queryString = this.$route.query.ipAddress
-    //this.ipAddress_queryString = '223.204.232.28'
+    //this.ipAddress_queryString = this.$route.query.ipAddress
+    this.ipAddress_queryString = '223.204.232.28'
     //this.userId_queryString = this.$route.query.userId
     this.botUserId = this.$route.query.botUserId
 
