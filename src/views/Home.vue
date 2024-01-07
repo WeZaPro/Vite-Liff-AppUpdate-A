@@ -94,6 +94,8 @@ export default {
     //this.userId_queryString = this.$route.query.userId
     this.botUserId = this.$route.query.botUserId
 
+    alert('this.ipAddress_queryString--> ', this.ipAddress_queryString)
+
     //TODO**************
     //1.javascript get ipAddress
     //2.ดึงข้อมูล lineBotId (มาจาก queryString ที่ส่งมาจาก Bot API) ตอนกดปุ่ม yes , lineUid , diaplayName
