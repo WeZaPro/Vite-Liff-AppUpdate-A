@@ -197,8 +197,8 @@ export default {
                 botUserId: this.$route.query.botUserId, //use
                 lineUid: this.profile.userId, //use
                 lineDisplayName: this.profile.displayName, //use
-                // ipAddressWebStart: this.ipAddress_queryString,
-                ipAddressWebStart: this.new_IPADDRESS,
+                ipAddressWebStart: this.ipAddress_queryString,
+                //ipAddressWebStart: this.new_IPADDRESS,
                 ipAddressChatLine: this.new_IPADDRESS,
                 userId: this.userId_queryString,
               }
