@@ -417,19 +417,19 @@ export default {
       } else {
         await liff
           .sendMessages([
-            {
-              type: 'sticker',
-              stickerId: 52002736,
-              packageId: 11537,
-            },
+            //{
+            //  type: 'sticker',
+            //  stickerId: 52002736,
+            //  packageId: 11537,
+            //},
             // {
             //   type: 'text',
             //   text: `สวัสดีค่ะ คุณ: ${profile.displayName} แจ้งความต้องการเลยค่ะ`,
             // },
-            // {
-            //   type: "text",
-            //   text: "Register",
-            // },
+            {
+              type: 'text',
+              text: 'START',
+            },
             // {
             //   type: "text",
             //   text: profile.displayName,
